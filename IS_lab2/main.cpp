@@ -144,8 +144,10 @@ void decoding() {
 
 int main()
 {
+
 	while (true) {
-		std::cout << "1. Analis etalonnogo teksta\n2. Analis zashifrovannogo teksta i deshivrovka\n";
+		std::cout << "1. Analis etalonnogo teksta\n";
+		std::cout << "2. Analis zashifrovannogo teksta i deshivrovka\n";
 		std::cout << "0. Vihod\n";
 		int com;
 		std::cin >> com;
